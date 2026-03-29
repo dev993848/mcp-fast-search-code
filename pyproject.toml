@@ -1,0 +1,23 @@
+[project]
+name = "space-ngrams"
+version = "0.1.0"
+description = "MCP server for fast code search using ripgrep"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/your-username/space-ngrams"
+
+[project.scripts]
+space-ngrams = "src.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
