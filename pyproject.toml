@@ -9,6 +9,11 @@ dependencies = [
     "mcp>=1.0.0",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
 [project.urls]
 Repository = "https://github.com/your-username/space-ngrams"
 

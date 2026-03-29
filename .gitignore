@@ -25,3 +25,7 @@ Thumbs.db
 # Project
 .claude/
 docs/
+*.toml
+!pyproject.toml
+!space-ngrams.example.toml
+README_RU.md
